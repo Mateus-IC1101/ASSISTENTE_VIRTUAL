@@ -1,0 +1,1 @@
+EMOCOES = ['Feliz', 'Triste', 'Cansado']

@@ -8,13 +8,17 @@ sudo apt install python3-pip
 
 3 - instalar as libs: [
 
+pip install tensorflow (biblioteca para aprendizado de máquina e inteligência artificial)
 pip install datetime2 (datas)
-pip install pyttsx3 (leitura de de textos)
+pip install pyttsx3 (transformar texto em aúdio)
+----
+sudo apt install portaudio19-dev (transformar aúdio em texto) 
+!Esse comando pode variar a cada versão do seu sistema, windows, linux ou mac!
+----
 pip install openpyxl (dependência para leitura arquivos do windows)
 pip install odfpy (dependência para leitura arquivos do linux)
 pip install pandas2 (manipular dados ,arquivos...)
 pip install pandas-ods-reader (manipular dados ,arquivos...) !NO LINUX! "CASO HAJA PROBLEMAS DE COMPATIBILDADE DE ARQUIVOS"
-
 ]
 
 4 - 
@@ -22,3 +26,7 @@ pip install pandas-ods-reader (manipular dados ,arquivos...) !NO LINUX! "CASO HA
 
 
 
+
+
+--comandos--
+print(loadModel()[0].summary())
