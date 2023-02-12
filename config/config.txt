@@ -11,10 +11,23 @@ sudo apt install python3-pip
 pip install tensorflow (biblioteca para aprendizado de máquina e inteligência artificial)
 pip install datetime2 (datas)
 pip install pyttsx3 (transformar texto em aúdio)
-----
-sudo apt install portaudio19-dev (transformar aúdio em texto) 
-!Esse comando pode variar a cada versão do seu sistema, windows, linux ou mac!
-----
+
+-------------------------------------------------------------------------
+pip install gtts (API do google para tornar a voz mais próxima de um ser humano)
+
+Obs: recomendo instalar o reprodutor mplayer.
+Pois ele é excutado em segundo plano "sem ser aberto" ao executar um aúdio: sudo apt install mplayer mplayer-gui
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+pip install PyAudio (transformar aúdio em texto)
+sudo apt install portaudio19-dev (transformar aúdio em texto) !Esse comando pode variar a cada versão do seu sistema, windows, linux ou mac!
+
+ou 
+
+pip install SpeechRecognition (transformar aúdio em texto)
+------------------------------------------------------------------------
+
 pip install openpyxl (dependência para leitura arquivos do windows)
 pip install odfpy (dependência para leitura arquivos do linux)
 pip install pandas2 (manipular dados ,arquivos...)
