@@ -1,18 +1,16 @@
 import data.respostas as __REPOSITORY_RESPOSTAS__
 import pyttsx3
 import helpers.datetimeHelper as datetimeHelper
-from gtts import gTTS
-import subprocess as s
+
 import webbrowser
 # import tensorflow as tf
 # Teste
 # print(__REPOSITORY_RESPOSTAS__.EMOCOES)
 #
-# ----------------------------------- voz api google-----------------------------
 
-voz = gTTS('Você não tem eventos para hoje', lang="pt")
-voz.save('voz.mp3')
-s.call(['mplayer', 'voz.mp3'])
+# ----------------------------------- voz api google-----------------------------
+# s.call(['mplayer', 'voz.mp3'])
+
 
 # ----------------------------------- voz api google-----------------------------
 
@@ -27,7 +25,7 @@ engine.setProperty('volume', volume - 0.1)  # ajuste de volume
 # atribuindo índice de voz brasileira
 engine.setProperty("voice", voices[59].id)
 engine.say('Você não tem eventos para hoje')  # entrada de texto
-engine.runAndWait()
+# engine.runAndWait()
 engine.stop()
 # ----------------------------------- voz pyttsx3 -----------------------------
 
@@ -35,7 +33,7 @@ engine.stop()
 # ----------------------------------- webbrowser -----------------------------
 path = 'xdg-open google.com'
 pesquisa = 'python'
-webbrowser.open('https://www.google.com.br/search?q='+pesquisa)
+# webbrowser.open('https://www.google.com.br/search?q='+pesquisa)
 
 
 # def loadModel(): # desativado temporariamente
